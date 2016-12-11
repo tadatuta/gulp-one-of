@@ -6,14 +6,13 @@ module.exports = function oneOf() {
     const collected = {};
 
     return filter(file => {
-        const suffix = fileSuffix(file.path);
+        const tech = fileSuffix(file.path);
 
-        if (args.length && !args.includes[suffix]) {
+        if (args.length && args.indexOf(tech) < 0) {
             return true;
         }
 
-        const suffixRegexp = new RegExp('\.' + suffix + '$');
-        const stem = file.path.replace(suffixRegexp, '');
+        const stem = file.path.slice(0, - tech.length - 1);
 
         if (!collected[stem]) {
             collected[stem] = true;
