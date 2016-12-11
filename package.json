@@ -1,12 +1,16 @@
 {
   "name": "gulp-one-of",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Filters vinyl stream by first of possible techs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["gulp-bem", "gulp", "bem"],
+  "keywords": [
+    "gulp-bem",
+    "gulp",
+    "bem"
+  ],
   "author": "Vladimir Grinenko",
   "license": "MIT",
   "repository": {
