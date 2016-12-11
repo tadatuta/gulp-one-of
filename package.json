@@ -1,0 +1,23 @@
+{
+  "name": "gulp-one-of",
+  "version": "1.0.0",
+  "description": "Filters vinyl stream by first of possible techs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["gulp-bem", "gulp", "bem"],
+  "author": "Vladimir Grinenko",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tadatuta/gulp-one-of.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tadatuta/gulp-one-of/issues"
+  },
+  "dependencies": {
+    "file-suffix": "^1.0.1",
+    "through2-filter": "^2.0.0"
+  }
+}
